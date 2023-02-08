@@ -10,8 +10,9 @@ for v in flowers.unicodeScalars {
     // print("v.properties.age", v.properties.age as Any)
 }
 
-let favemoji = "My favorite emoji is 🎉"
-if let i = favemoji.unicodeScalars.firstIndex(where: { $0.value >= 128 }) {
+let favemoji = "My 🎉 favorite emoji is 🎉"
+if let i = favemoji.unicodeScalars.firstIndex(
+    where: { $0.value >= 128 }) {
     let asciiPrefix = String(favemoji.unicodeScalars[..<i])
     print(asciiPrefix)
 }
