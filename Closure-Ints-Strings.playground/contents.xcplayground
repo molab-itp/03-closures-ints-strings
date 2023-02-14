@@ -5,5 +5,9 @@
         <page name='unicodeScalars'/>
         <page name='closure doc'/>
         <page name='closures variation'/>
+        <page name='Dictionary'/>
+        <page name='Array'/>
+        <page name='Struct'/>
+        <page name='Class'/>
     </pages>
 </playground>
