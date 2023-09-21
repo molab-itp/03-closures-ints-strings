@@ -1,5 +1,9 @@
 // unicodeScalars -- decoding the documentation
 
+// Trying the documented code in this playground
+
+// https://developer.apple.com/documentation/swift/string
+
 // XCode occasionally can't find documentation
 // https://developer.apple.com/documentation/swift/string/unicodescalarview
 
@@ -10,9 +14,9 @@ for v in flowers.unicodeScalars {
     // print("v.properties.age", v.properties.age as Any)
 }
 
-let favemoji = "My 🎉 favorite emoji is 🎉"
+let favemoji = "My favorite emoji is 🎉"
 if let i = favemoji.unicodeScalars.firstIndex(
     where: { $0.value >= 128 }) {
     let asciiPrefix = String(favemoji.unicodeScalars[..<i])
-    print(asciiPrefix)
+    print("asciiPrefix", asciiPrefix)
 }
