@@ -6,3 +6,4 @@ if let i = students.firstIndex(where: { $0.hasPrefix("A") }) {
     print("i", i, "\(students[i]) starts with 'A'!")
 }
 
+// where: { $0.hasPrefix("A") }
