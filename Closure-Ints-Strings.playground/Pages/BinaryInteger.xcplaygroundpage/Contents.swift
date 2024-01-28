@@ -34,6 +34,6 @@ let s2 = String( 2023, radix: 2)
 print("s2", s2)
 
 for num in 2020..<2030 {
-    let s = String( num, radix: 16)
-    print("num", num, "s", s)
+    let s16 = String( num, radix: 16)
+    print("num", num, "s16", s16)
 }
