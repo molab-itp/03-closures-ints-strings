@@ -4,12 +4,12 @@ class Bag {
     var f = 20
 }
 
-var b1 = Bag()
-print("b1",b1.e,b1.f, "\n")
+var bag1 = Bag()
+print("bag1", bag1.e, bag1.f, "\n")
 
 // Class instance references are shared
-var b2 = b1
-b2.e = 11
-print("b1",b1.e,b1.f, "\n")
-print("b2",b2.e,b2.f, "\n")
+var bag2 = bag1
+bag2.e = 11
+print("bag1", bag1.e, bag1.f, "\n")
+print("bag2", bag2.e, bag2.f, "\n")
 

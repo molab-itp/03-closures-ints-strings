@@ -19,5 +19,5 @@ let index3 = str.firstIndex(where: { item in
 print("index3", index3!)
 
 // Trailing closure parameter name is optional
-let index4 = str.firstIndex { $0 == "🐖" }
+let index4 = str.firstIndex { $0 == "🐏" }
 print("index4", index4!)
