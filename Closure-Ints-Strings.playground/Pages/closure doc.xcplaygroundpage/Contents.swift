@@ -19,3 +19,5 @@ var reversedNames = names.sorted(by: backward)
 // reversedNames is equal to ["Ewa", "Daniella", "Chris", "Barry", "Alex"]
 
 print("reversedNames \(reversedNames)")
+
+var reversedNames2 = names.sorted(by: { $0 > $1 })
