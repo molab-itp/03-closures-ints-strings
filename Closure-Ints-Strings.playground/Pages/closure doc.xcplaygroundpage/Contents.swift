@@ -20,4 +20,13 @@ var reversedNames = names.sorted(by: backward)
 
 print("reversedNames \(reversedNames)")
 
-var reversedNames2 = names.sorted(by: { $0 > $1 })
+var reversedNames2 = reversedNames.sorted(by: { $0 < $1 })
+
+print("reversedNames2 \(reversedNames2)")
+
+// --------------------------------------------------
+// trailing closure syntax
+
+var reversedNames3 = reversedNames2.sorted { $0 > $1 }
+
+print("reversedNames3 \(reversedNames3)")
